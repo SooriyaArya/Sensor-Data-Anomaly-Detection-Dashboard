@@ -22,33 +22,25 @@ Copy code
 └── data                   # (Optional) Folder for storing or importing real-world sensor data
 Installation
 Clone the repository:
-
 bash
 Copy code
-git clone https://github.com/your-username/sensor-data-anomaly-detection-dashboard.git
-cd sensor-data-anomaly-detection-dashboard
 Create a virtual environment (optional but recommended):
-
 bash
 Copy code
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install dependencies: Install the required Python packages using pip:
-
 bash
 Copy code
 pip install -r requirements.txt
 Usage
 Run the Dash application:
-
 bash
 Copy code
 python app.py
 Access the dashboard: Open your web browser and navigate to http://127.0.0.1:8007/ to access the sensor data anomaly detection dashboard.
-
 Visualizations
 The dashboard includes the following visualizations:
-
 Correlation Heatmap: Visualizes the correlation between different sensor readings.
 Pair Plot: Shows relationships between pairs of sensor readings, colored by anomaly labels.
 Box Plot: Displays the distribution of sensor readings by label.
